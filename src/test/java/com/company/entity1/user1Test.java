@@ -1,13 +1,8 @@
 package com.company.entity1;
-
-import com.company.entity1.user;
-import com.company.entity1.user1;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class user1Test {
-
     @Test
     public void getResponse() {
         user[] a = new user[2];
@@ -17,7 +12,6 @@ public class user1Test {
         a[1] = us1;
         user1 b= new user1(a);
         assertEquals(a, b.getResponse());
-
     }
 
     @Test
@@ -33,6 +27,5 @@ public class user1Test {
         s[0]=u;
         b.setResponse(s);
         assertEquals(s, b.getResponse());
-
     }
 }

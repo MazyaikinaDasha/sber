@@ -1,6 +1,4 @@
 package com.company.entity;
-
-import com.company.entity.Friend;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -21,6 +19,5 @@ public class FriendTest {
         int[] b={7,8,0};
         f.setResponse(b);
         assertEquals(b, f.getResponse());
-
     }
 }
