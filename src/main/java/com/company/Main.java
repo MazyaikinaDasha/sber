@@ -48,6 +48,10 @@ public class Main {
     public static void getFriend(String id, String id1) {
         int[] b;
         b = getFriendId(id, id1);
+        if (b.length == 0){
+            System.out.println("Общих друзей нет");
+            return;
+        }
         System.out.println("Общие друзья");
         System.out.format("%20s%20s%20s\n", "id","имя", "фамилия");
         System.out.println("**************************************************************");
@@ -64,9 +68,17 @@ public class Main {
                     while ((line1 = in1.readLine()) != null) {
                         Gson gson1 = new Gson();
                         user1 arr1 = gson1.fromJson(line1, user1.class);
-                        System.out.format("%20d%20s%20s\n", arr1.getResponse()[0].getId(), arr1.getResponse()[0].getFist_name(), arr1.getResponse()[0].getLast_name());
+                        try {
+                            System.out.format("%20d%20s%20s\n", arr1.getResponse()[0].getId(), arr1.getResponse()[0].getFist_name(), arr1.getResponse()[0].getLast_name());
+                        }
+                        catch (NullPointerException e) {
+                            i = i-1;
+                        }
+
                     }
+
                 }
+
                 else {
                     System.out.println(conn1.getResponseCode() + ", " + conn1.getResponseMessage());
                 }

@@ -6,8 +6,8 @@ public class user1Test {
     @Test
     public void getResponse() {
         user[] a = new user[2];
-        user us = new  user( 123, "Ivan", "Ivanov");
-        a[0]=us;
+        user us =new user(123, "Ivan", "Ivanov");;
+        a[0] = us;
         user us1 = new user(321, "Vasya", "Pupkin");
         a[1] = us1;
         user1 b= new user1(a);
