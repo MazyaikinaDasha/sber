@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5797933-06aa-46fc-9187-3ae0d4f3bc0c" name="Default" comment="new crutch">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
-    </list>
+    <list default="true" id="a5797933-06aa-46fc-9187-3ae0d4f3bc0c" name="Default" comment="new crutch" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
-              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -267,7 +265,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -563,7 +561,7 @@
       <workItem from="1530092177385" duration="52423000" />
       <workItem from="1530268178875" duration="32394000" />
       <workItem from="1530448801234" duration="73126000" />
-      <workItem from="1530773836060" duration="3378000" />
+      <workItem from="1530773836060" duration="3965000" />
     </task>
     <task id="LOCAL-00001" summary="hi">
       <created>1530543106898</created>
@@ -629,10 +627,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182020000" />
+    <option name="totallyTimeSpent" value="182607000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -965,7 +963,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
