@@ -99,23 +99,28 @@ public class Main {
 
 
     public static void main(String args[]) {
-        System.out.println("Введите id первого пользователя");
-        user_id = in();
-        while (!isNumeric(user_id)) {
-            System.out.println("не верный ввод");
+
             System.out.println("Введите id первого пользователя");
             user_id = in();
-        }
-        System.out.println("Введите id второго пользователя");
-        user_id1 = in();
-        while (!isNumeric(user_id1)) {
+            while (!isNumeric(user_id)) {
+                System.out.println("не верный ввод");
+                System.out.println("Введите id первого пользователя");
+                user_id = in();
+            }
+
             System.out.println("Введите id второго пользователя");
             user_id1 = in();
-        }
-        getFriend(user_id, user_id1);
+            while (!isNumeric(user_id1)) {
+                System.out.println("Введите id второго пользователя");
+                user_id1 = in();
+            }
+
+             getFriend(user_id, user_id1);
+         }
 
 
-    }
+
+
 
     public static String in() {
         Scanner inputl = new Scanner(System.in);
